@@ -5,30 +5,25 @@
  */
 
 function pairwise(arr, arg) {
-    // 第一步：遍历所有组合，发现符合条件的就提出来
-    let target_comb = [];
-    for(let i = 0; i < arr.length; i++) {
-        for(let j = i + 1; j < arr.length; j++) {
-            if(arr[i] + arr[j] === arg)
-                target_comb.push({
-                    number1: arr[i],
-                    number2: arr[j],
-                    number1_index: i,
-                    number2_index: j
-                });
+    let arr_to_check = Array.from(arr);               // 将参数中的数组复制一份，以避免修改参数
+    let result = 0;             // 存放最后结果
+
+    // 第一步：遍历所有组合，发现符合题意，且第一次出现（为了保证组合不重复）的就提出来
+    for(let i = 0; i < arr_to_check.length; i++) {
+        for(let j = i + 1; j < arr_to_check.length; j++) {
+            if(arr_to_check[i] + arr_to_check[j] === arg) {
+                result += i + j;
+
+                arr_to_check[i] = NaN; arr_to_check[j] = NaN;
+            }
         }
     }
-
-    // 第二步：累加这些符合条件的项所对应的索引
-    let result = 0;
-    target_comb.forEach(function (val) {
-        result += val.number1_index;
-        result += val.number2_index;
-    });
 
     console.log(result);
     return result;
 }
 
-pairwise([1, 1, 1], 2)
-pairwise([0, 0, 0, 0, 1, 1], 1)
+//pairwise([1, 4, 2, 3, 0, 5], 7);
+//pairwise([1, 3, 2, 4], 4);
+//pairwise([1, 1, 1], 2);
+pairwise([0, 0, 0, 0, 1, 1], 1);

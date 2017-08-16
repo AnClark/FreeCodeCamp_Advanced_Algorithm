@@ -15,30 +15,92 @@
  * 如果字符串中给出了国家代码, 你必须验证其是 1. 如果号码有效就返回 true ; 否则返回 false.
  */
 
-function telephoneCheck(str) {
-    // 第一步：检查数字个数
-    // 如果数位有10位，则通过初审；如果有11位，则说明有国家代码，还要专门对其进行检验
+/**
+ * 【电话号码预处理】 一些规则参考
+ * 1. 空格可忽略。预处理时可以把所有空格移除。
+ * 2. 电话号码中只能包括数字、连字符（“-”）和左右括号。发现这以外的字符均可视为不合格。
+ * 3. 数字有10位或11位（含国家代码时）。
+ *  a. 若数字有11位，则检查第一位国家代码是否为1，如果否，则判定不合格。
+ *  b. 若数字有10位，则留之。
+ *  c. 不满足以上条件者，判定不合格。
+ * 4. 上述预处理与预判断完成后，则进入下一环节。
+ *
+ * 【电话号码正式判断】
+ * 总体可以按照以下情形分类讨论：
+ * 1. 数字+连字符：形如 555-555-5555
+ *  a. 连字符只能有两个。
+ *  b. 分隔位置固定。
+ * 2. 括号括起三位区号，配合连字符：形如 (555)555-5555
+ * 3. 纯数字。
+ * 注：以上写法均可以在适当的位置用空格分隔，但测试用例并未说明用空格随意分隔是否有效。
+ *
+ * 疑问：只有括号而不加连字符是否算数？
+ */
 
-step1:
+/**
+ * 【正则表达式使用心得】
+ * ■ 正则表达式默认采取“局部匹配”策略，即一个字符串中只要有其中一个部分满足正则表达式的判断条件，则匹配成功。
+ *      例如，正则表达式 /\d\d\d-\d\d\d-\d\d\d\d/ 能够同时匹配 "555-555-5555" 和 "-1-555-555-5555"。
+ * ■ 局部匹配会导致一个问题：在使用正则表达式进行格式判断时，会把给定格式外还有其他字符的情况（即给定格式外还有其他字符包裹）也判为匹配成功。
+ *   这时要想克服这一问题，可以加上边界限定符“^”，匹配输入开始，就可以避免这个问题。
+ */
+
+/**
+ * 对传入的电话号码字符串进行预处理和预判断。这个环节是接下来正式判断的前提。
+ * @param str
+ * @return {*}
+ */
+function preProcess(str){
+    let s = String(str);
+
+    // 第一环节：移除空格。
+    s = s.replace(/\s/g, '');
+
+    // 第二环节：检查是否包括数字、“-”和括号外的字符
+    if(s.match(/[^0-9()\-]/g))
+        return false;
+
+    // 第三环节：检查数字位数
     // 1. 提取出所有的数字
-    let numbers = str.match(/\d/g);
-    if(numbers.length === 10)
-		goto step2;
-	
-    if(numbers.length === 11  &&  numbers[0] === '1')
-		goto step2;
-        
-	return false;
-		
-step2:	
+    let nums = s.match(/[0-9]/g);
+
+    // 2. 不满足11位或10位的，淘汰之
+    if(nums.length > 11 || nums.length < 10)
+        return false;
+
+    // 3. 11位数的第一位不是1的，淘汰之
+    if(nums.length === 11 && nums[0] !== '1')
+        return false;
+
+    // 第四环节：输出。通过以上环节的，输出预处理后的字符串，否则输出 false
+    return s;
+}
+
+/**
+ * 正式的判断函数，功能是先调用 preProcess() 进行预判断，然后进行后续判断。
+ * @param str
+ * @return {boolean}
+ */
+function telephoneCheck(str) {
+    let str_p = preProcess(str);        // 预处理字符串
+    // 检测预处理结果。如果预处理环节未通过，则直接淘汰
+    if(!str_p) return false;
+
+    // 分类讨论情形。其中sit是situation的缩写。
+    let sit_num_and_separator = str_p.match(/^1?\d\d\d-\d\d\d-\d\d\d\d/);
+    let sit_bracket_with_separator = str_p.match(/^1?\(\d\d\d\)\d\d\d-\d\d\d\d/);      // 圆括号单用时表示子捕获，必须转义！
+    let sit_only_numbers = (!str_p.match(/[()]/g)  &&  !str_p.match(/-/g))
+                && ((str_p.match(/\d/g).length === 10) || (str_p.match(/\d/g).length === 11));
 
 
+    if(sit_num_and_separator || sit_bracket_with_separator)
+        return true;
+    else if(!(sit_num_and_separator && sit_bracket_with_separator))
+        return sit_only_numbers;
 
-    return true;
-
-
+    return false;
 }
 
 
 
-console.log(telephoneCheck("55-555-5555"));
+console.log(telephoneCheck("(555-555-5555"));

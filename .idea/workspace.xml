@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04dc54b1-8704-41e6-9087-921d6c32ca8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Advanced Algorithm.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 1/Inventory Update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 1/Make A Person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 1/Symmetric Difference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 1/test_spilce_Repeat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 1/test_word_sorting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2/Friendly Date Ranges.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2/Map the Debris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2/Pairwise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Exact Change.bak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Exact Change.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/No repeats please.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2/Pairwise.bak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Level 2/Pairwise.js" afterPath="$PROJECT_DIR$/Level 2/Pairwise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js" afterPath="$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,67 +22,125 @@
     <favorites_list name="Advanced Algorithm" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Friendly Date Ranges.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Level 2/Friendly Date Ranges.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="120" column="34" lean-forward="false" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc;n#Int2Ordinal#0" expanded="false" />
-                <element signature="n#!!block;n#Int2Ordinal#0" expanded="false" />
-                <element signature="n#!!doc;n#MonthInt2MonthName#0" expanded="false" />
-                <element signature="n#!!block;n#MonthInt2MonthName#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Make A Person.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Level 1/Make A Person.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="44" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exact Change.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exact Change.bak.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.bak.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Symmetric Difference.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Level 1/Symmetric Difference.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="40" column="33" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="40" selection-end-column="33" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="Friendly Date Ranges.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 2/Friendly Date Ranges.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="120" column="34" lean-forward="false" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+                  <folding>
+                    <element signature="n#!!doc;n#Int2Ordinal#0" expanded="false" />
+                    <element signature="n#!!block;n#Int2Ordinal#0" expanded="false" />
+                    <element signature="n#!!doc;n#MonthInt2MonthName#0" expanded="false" />
+                    <element signature="n#!!block;n#MonthInt2MonthName#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Make A Person.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 1/Make A Person.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="924">
+                  <caret line="44" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Exact Change.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Pairwise.bak.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.bak.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Pairwise.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Validate US Telephone Numbers.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="337">
+                  <caret line="89" column="70" lean-forward="true" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="70" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Exact Change.bak.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.bak.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2793">
+                  <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Symmetric Difference.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Level 1/Symmetric Difference.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="693">
+                  <caret line="40" column="33" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="40" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Validate US Telephone Numbers.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="379">
+                  <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,11 +171,14 @@
         <option value="$PROJECT_DIR$/Level 2/Friendly Date Ranges.js" />
         <option value="$PROJECT_DIR$/Level 1/Make A Person.js" />
         <option value="$PROJECT_DIR$/Level 2/Map the Debris.js" />
-        <option value="$PROJECT_DIR$/Level 2/Pairwise.js" />
         <option value="$PROJECT_DIR$/Level 2/Exact Change.js" />
         <option value="$PROJECT_DIR$/Level 3/No repeats please.js" />
         <option value="$PROJECT_DIR$/Level 3/Exact Change.bak.js" />
         <option value="$PROJECT_DIR$/Level 3/Exact Change.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Official Keys/Pairwise.js" />
+        <option value="$PROJECT_DIR$/Level 2/Pairwise.js" />
+        <option value="$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js" />
       </list>
     </option>
   </component>
@@ -170,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,11 +240,15 @@
               <item name="Advanced Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Level 3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Advanced Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Official Keys" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -209,6 +261,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Soft Wrap&#9;ACTION&#9;EditorToggleUseSoftWraps" />
     <property name="last_opened_file_path" value="D:/Programmer/FrontEnd Learner/FreeCodeCamp/_Test/import" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -230,26 +283,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Exact Change.js">
+  <component name="RunManager" selected="Node.js.Validate US Telephone Numbers.js">
     <configuration name="Exact Change.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Level 3/Exact Change.js" working-dir="$PROJECT_DIR$/Level 2" />
-    <configuration name="Make A Person.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Make A Person.js" working-dir="$PROJECT_DIR$/Level 1" />
-    <configuration name="Map the Debris.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Map the Debris.js" working-dir="$PROJECT_DIR$/Level 2" />
-    <configuration name="No repeats please.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="No repeats please.js" working-dir="$PROJECT_DIR$/Level 3" />
-    <configuration name="Pairwise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Pairwise.js" working-dir="$PROJECT_DIR$/Level 2" />
+    <configuration name="Pairwise.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Pairwise.js" working-dir="$PROJECT_DIR$/Official Keys" />
+    <configuration name="Pairwise.js (2)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Pairwise.js" working-dir="$PROJECT_DIR$/Level 2" />
+    <configuration name="Pairwise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Level 2/Pairwise.bak.js" working-dir="$PROJECT_DIR$/Level 2" />
+    <configuration name="Validate US Telephone Numbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Validate US Telephone Numbers.js" working-dir="$PROJECT_DIR$/Level 2" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Make A Person.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Map the Debris.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Pairwise.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Exact Change.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.No repeats please.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Pairwise.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Exact Change.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Pairwise.js (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Pairwise.js (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Validate US Telephone Numbers.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Exact Change.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.No repeats please.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Pairwise.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.Map the Debris.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Make A Person.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Validate US Telephone Numbers.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Pairwise.js (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Pairwise.js (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Pairwise.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Exact Change.js" />
       </list>
     </recent_temporary>
   </component>
@@ -273,12 +326,13 @@
       <workItem from="1501663375593" duration="2841000" />
       <workItem from="1502677432132" duration="13029000" />
       <workItem from="1502722752306" duration="15000" />
-      <workItem from="1502756297136" duration="5146000" />
+      <workItem from="1502756297136" duration="6402000" />
+      <workItem from="1502781728761" duration="8719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37600000" />
+    <option name="totallyTimeSpent" value="47575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,6 +345,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30232558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -298,7 +353,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39819005" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -342,11 +397,23 @@
           <line>30</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Level 2/Pairwise.bak.js</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Official Keys/Pairwise.js</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="37" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -355,6 +422,55 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Level 2/Friendly Date Ranges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="120" column="34" lean-forward="false" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc;n#Int2Ordinal#0" expanded="false" />
+            <element signature="n#!!block;n#Int2Ordinal#0" expanded="false" />
+            <element signature="n#!!doc;n#MonthInt2MonthName#0" expanded="false" />
+            <element signature="n#!!block;n#MonthInt2MonthName#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 1/Make A Person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.bak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 1/Symmetric Difference.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Level 2/Friendly Date Ranges.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -471,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.js">
+    <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.bak.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
@@ -528,13 +644,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 1/Validate US Telephone Numbers.js" />
-    <entry file="file://$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Level 1/test_spilce_Repeat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,7 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 2/Friendly Date Ranges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
+        <state relative-caret-position="0">
           <caret line="120" column="34" lean-forward="false" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc;n#Int2Ordinal#0" expanded="false" />
@@ -567,13 +676,6 @@
             <element signature="n#!!doc;n#MonthInt2MonthName#0" expanded="false" />
             <element signature="n#!!block;n#MonthInt2MonthName#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -601,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 1/Symmetric Difference.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="693">
           <caret line="40" column="33" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -629,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.bak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="2793">
           <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -639,8 +741,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 3/Exact Change.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        <state relative-caret-position="168">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Official Keys/Pairwise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.bak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2/Pairwise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2/Validate US Telephone Numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding />
         </state>
       </provider>
